@@ -94,9 +94,9 @@ export default function Header() {
             <div className="nav">
               <ul>
                 <li className="menu-item-has-children">
-                  <a className="gradient_link" href="/">
+                  <Link className="gradient_link" to="/">
                     <span>Home</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="gradient_link" href="#about">
@@ -138,11 +138,13 @@ export default function Header() {
             </div>
             <div className={`mobile-nav ${mobileMenuOpen ? "opened" : ""}`}>
               <div className="text-center w-full">
-                <a
+                <Link
                   className="duration-150 font-bold hover:text-blue-400 px-4 text-2xl text-gray-700"
-                  href="/">
+                  to="/"
+                  onClick={() => setMobileMenuOpen(false)}>
+                  {" "}
                   HOME
-                </a>
+                </Link>
               </div>
               <div className="text-center w-full">
                 <a
