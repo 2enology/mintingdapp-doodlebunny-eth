@@ -1,0 +1,106 @@
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #2A2D3A #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #fbff00;
+  border-radius: 30px;
+  border: 3px none #636060;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+iframe {
+  display: none !important;
+}
+
+body {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1.44;
+  font-weight: 400;
+  position: relative;
+  background: rgb(2, 74, 221);
+  background: -moz-linear-gradient(90deg, rgba(2, 74, 221, 1) 0%, rgba(1, 163, 244, 1) 50%, rgba(2, 74, 221, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2, 74, 221, 1) 0%, rgba(1, 163, 244, 1) 50%, rgba(2, 74, 221, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 74, 221, 1) 0%, rgba(1, 163, 244, 1) 50%, rgba(2, 74, 221, 1) 100%);
+}
+
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 90px !important;
+}
+
+/*------------------------------------------------------------------*/
+/*	React 3d Carsoual Customize
+/*------------------------------------------------------------------*/
+.css-1qzevvg {
+  height: 22px !important;
+}
+
+.css-1qzevvg>img {
+  cursor: pointer !important;
+}
+
+/*------------------------------------------------------------------*/
+/*	Mobile Menu Customize
+/*------------------------------------------------------------------*/
+.mobile-nav {
+  position: absolute;
+  background-color: white;
+  color: black;
+  left: 0;
+  top: 88px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 0;
+  overflow: hidden;
+  box-shadow: 0px 30px 90px rgba(62, 65, 88, 0.4);
+  transition: all 0.3s;
+  display: block;
+}
+
+.mobile-nav.opened {
+  height: auto;
+  transition: all 0.3s;
+  padding: 24px 24px;
+}
+
+/*------------------------------------------------------------------*/
+/*	Ant Collapse Customize
+/*------------------------------------------------------------------*/
+.ant-collapse {
+    background-color: transparent !important;
+}
+
+.ant-collapse-item {
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 10%) !important;
+    border-radius: 10px !important;
+    padding: 7px 0px 5px !important;
+    border: 2px solid #fff !important
+}
