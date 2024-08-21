@@ -1,1 +1,1 @@
-# DoodleBunny-MintingDapp
+# DoodleBunny-Minting & Staking Dapp
